@@ -1,14 +1,7 @@
-# launcher
+# VUE3 + ELECTRON
 
-This template should help get you started developing with Vue 3 in Vite.
+This Create should help get you started developing with Vue 3 + Electron
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
@@ -27,3 +20,13 @@ npm run dev
 ```sh
 npm run build
 ```
+### Adding Electron to project
+```sh
+npm install --save-dev electron
+```
+### Run project 
+```sh
+npm run electron:start
+```
+
+
